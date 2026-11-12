@@ -1,0 +1,4 @@
+list.txt
+xmv-home.html
+xmv-m.html
+xmv-shop.html
