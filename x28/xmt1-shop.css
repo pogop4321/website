@@ -1,0 +1,258 @@
+/* 모터.com 카페24 스킨 공통 + 구매 페이지 (261112) */
+html.xm-skin body{background:#E4E4E4!important;color:#0E0E0E;font-family:'IBM Plex Sans KR','Spoqa Han Sans Neo','Apple SD Gothic Neo',sans-serif!important;-webkit-font-smoothing:antialiased}
+html.xm-skin #contents input,html.xm-skin #contents select,html.xm-skin #contents button,html.xm-skin #contents textarea,html.xm-skin #contents td,html.xm-skin #contents th,html.xm-skin #contents p,html.xm-skin #contents a{font-family:inherit}
+html.xm-skin #wrap{background:transparent!important}
+html.xm-skin .main_top_banner,html.xm-skin #header,html.xm-skin .footer_margin{display:none!important}
+html.xm-skin #container{max-width:1400px!important;margin:0 auto!important;padding:0 28px!important;width:auto!important;float:none}
+html.xm-skin #contents{position:relative;max-width:none!important;width:auto!important;margin:0!important;padding:0 36px 72px!important;border-left:1px solid rgba(14,14,14,.18);border-right:1px solid rgba(14,14,14,.18);min-height:60vh;float:none}
+html.xm-skin #contents:before,html.xm-skin #contents:after{content:"";position:absolute;top:10px;width:10px;height:10px;background:#FF582F}
+html.xm-skin #contents:before{left:10px}html.xm-skin #contents:after{right:10px}
+html.xp-pre #contents{visibility:hidden}
+/* 사이트 헤더 (홈과 동일) */
+html.xm-skin .xh{font-family:'IBM Plex Sans KR',sans-serif;border-bottom:1px solid rgba(14,14,14,.55)}
+html.xm-skin .xh a{text-decoration:none}
+html.xm-skin .xh .nav a{font-family:'Roboto Mono','Nanum Gothic Coding',monospace;font-size:14px;color:#0E0E0E;padding:8px 14px}
+html.xm-skin .xh .nav a:hover{background:rgba(14,14,14,.06)}
+html.xm-skin .xh-u{font-family:'Roboto Mono',monospace;font-size:12px;color:#3A3A3A;padding:6px 4px}
+html.xm-skin .xh-u:hover{color:#0E0E0E;text-decoration:underline!important}
+html.xm-skin .xh-btn{font-family:'Roboto Mono',monospace;font-size:14px;letter-spacing:.03em;background:#FF582F;color:#0E0E0E!important;padding:12px 20px;display:inline-flex;align-items:center;clip-path:polygon(0 12px,12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%)}
+html.xm-skin .xh{position:sticky;top:0;z-index:50}
+html.xm-skin .xh .nav a,html.xm-skin .xh-u,html.xm-skin .xh-btn{white-space:nowrap}
+@media(max-width:1640px){html.xm-skin .xh .xh-note{display:none!important}}
+@media(max-width:1380px){html.xm-skin .xh .nav a{padding:8px 8px}html.xm-skin .xh .nav{gap:2px!important}}
+@media(max-width:980px){html.xm-skin .xh .hide-n{display:none!important}}
+
+/* 공통 버튼 · 제목 */
+html.xm-skin .titleArea{margin:0;padding:44px 0 22px;border-bottom:1px solid rgba(14,14,14,.18);text-align:left}
+html.xm-skin .titleArea h2{font-size:34px;font-weight:700;letter-spacing:-.02em;color:#0E0E0E;font-family:'IBM Plex Sans KR',sans-serif}
+html.xm-skin [class*="btnSubmit"]{background:#FF582F!important;border-color:#FF582F!important;color:#0E0E0E!important;font-weight:600;border-radius:0!important}
+html.xm-skin [class*="btnNormal"],html.xm-skin [class*="btnBasic"]{border-radius:0!important;border-color:rgba(14,14,14,.55)!important;color:#0E0E0E!important;background:#fff}
+html.xm-skin [class*="btnEm"],html.xm-skin [class*="btnStrong"]{background:#0E0E0E!important;border-color:#0E0E0E!important;color:#fff!important;border-radius:0!important}
+
+/* 푸터 */
+html.xm-skin .xf-band{background:#FF582F;color:#0E0E0E;margin-top:0}
+html.xm-skin .xf-band>div{max-width:1400px;margin:0 auto;padding:34px 64px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+html.xm-skin .xf-band small{display:block;font:500 11px/1 'Roboto Mono',monospace;letter-spacing:.18em;margin-bottom:10px}
+html.xm-skin .xf-band b{font-size:26px;font-weight:700;letter-spacing:-.02em;line-height:1.25}
+html.xm-skin .xf-band a{font:500 14px/1 'Roboto Mono',monospace;background:#0E0E0E;color:#fff;padding:16px 22px;text-decoration:none;clip-path:polygon(0 12px,12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%)}
+html.xm-skin #footer{background:#0E0E0E!important;color:rgba(255,255,255,.62)!important;border:0!important;margin:0!important;padding:0!important;font-size:12.5px}
+html.xm-skin #footer .inner{max-width:1400px;margin:0 auto;padding:44px 64px 56px;display:block}
+html.xm-skin #footer a{color:rgba(255,255,255,.78)!important}
+html.xm-skin #footer .title,html.xm-skin #footer strong{color:#fff!important}
+html.xm-skin #footer .bt_bank,html.xm-skin #footer .bt_sns,html.xm-skin #footer .bt_escrow{display:none!important}
+html.xm-skin #footer .bt_logo{margin:0 0 22px}
+html.xm-skin #footer .bt_logo a{font-size:0;color:#fff!important;display:inline-flex}
+html.xm-skin #footer .bt_logo .xm-logo,html.xm-skin #footer .bt_logo .xm-logo *{color:#fff!important}
+html.xm-skin #footer .bt_util{border-top:1px solid rgba(255,255,255,.14);border-bottom:1px solid rgba(255,255,255,.14);padding:14px 0;margin:0 0 22px}
+html.xm-skin #footer .bt_util ul{display:flex;gap:22px;flex-wrap:wrap;margin:0;padding:0;list-style:none}
+html.xm-skin #footer .bt_wrap{display:grid;grid-template-columns:1.6fr 1fr;gap:36px;border:0;padding:0;margin:0}
+html.xm-skin #footer .bt_wrap>div{width:auto;float:none;padding:0;margin:0;border:0}
+html.xm-skin #footer .bt_wrap .title{font:500 11px/1 'Roboto Mono',monospace;letter-spacing:.16em;margin:0 0 12px;color:rgba(255,255,255,.5)!important}
+html.xm-skin #footer .bt_info_list>div,html.xm-skin #footer .bt_csce div div{display:inline-block;margin:0 16px 6px 0;line-height:1.7}
+html.xm-skin #footer .bt_wrap *{color:rgba(255,255,255,.78)!important}
+html.xm-skin #footer .bt_wrap [data-ez-role="field"],html.xm-skin #footer .bt_wrap strong,html.xm-skin #footer .bt_wrap .title{color:rgba(255,255,255,.45)!important;font-weight:400}
+html.xm-skin #footer .bt_wrap2{border-top:1px solid rgba(255,255,255,.14);margin-top:26px;padding-top:18px;font:400 11.5px/1.6 'Roboto Mono',monospace;color:rgba(255,255,255,.4)}
+
+/* ───── 구매 페이지 ───── */
+html.xp .xans-product-headcategory,html.xp #contents>.titleArea,html.xp .xans-layout-mobileaction{display:none!important}
+html.xp .xp-bc{font:400 12.5px/1 'Roboto Mono','Nanum Gothic Coding',monospace;color:#3A3A3A;padding:34px 0 20px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+html.xp .xp-bc a{color:#3A3A3A;text-decoration:none;border-bottom:1px solid rgba(14,14,14,.3);padding-bottom:2px}
+html.xp .xans-product-detail,html.xp .xans-product-additional{margin:0!important;padding:0!important;border:0;max-width:none!important;width:auto!important}
+html.xp .xans-product-detail .detailArea{display:grid;grid-template-columns:minmax(0,560px) minmax(0,1fr);gap:0;background:#fff;border:1px solid rgba(14,14,14,.55);margin:0;padding:0;width:auto;max-width:none}
+html.xp .detailArea .imgArea{width:auto!important;max-width:none;float:none;margin:0;padding:0;border-right:1px solid rgba(14,14,14,.18);display:flex;flex-direction:column;min-width:0;background:#F6F6F4}
+html.xp .detailArea .imgArea>*:not(.xp-stage):not(.xp-gal):not(.xp-side){display:none!important}
+html.xp .xp-stage{position:relative;aspect-ratio:1/1;display:grid;place-items:center;background-color:#F6F6F4;background-image:linear-gradient(to right,rgba(14,14,14,.035) 1px,transparent 1px),linear-gradient(to bottom,rgba(14,14,14,.035) 1px,transparent 1px);background-size:40px 40px;border-bottom:1px solid rgba(14,14,14,.18);overflow:hidden}
+html.xp .xp-stage:before{content:"";position:absolute;inset:11px;pointer-events:none;z-index:1;background:linear-gradient(#0E0E0E,#0E0E0E) left top/8px 1px no-repeat,linear-gradient(#0E0E0E,#0E0E0E) left top/1px 8px no-repeat,linear-gradient(#0E0E0E,#0E0E0E) right top/8px 1px no-repeat,linear-gradient(#0E0E0E,#0E0E0E) right top/1px 8px no-repeat,linear-gradient(#0E0E0E,#0E0E0E) left bottom/8px 1px no-repeat,linear-gradient(#0E0E0E,#0E0E0E) left bottom/1px 8px no-repeat,linear-gradient(#0E0E0E,#0E0E0E) right bottom/8px 1px no-repeat,linear-gradient(#0E0E0E,#0E0E0E) right bottom/1px 8px no-repeat;opacity:.45}
+html.xp .xp-stage img{position:relative;z-index:2;width:86%;height:86%;object-fit:contain;filter:drop-shadow(0 18px 26px rgba(14,14,14,.14)) drop-shadow(0 4px 8px rgba(14,14,14,.06));transition:opacity .16s ease,transform .25s ease}
+html.xp .xp-stage:hover img{transform:scale(1.03)}
+html.xp .xp-ang{position:absolute;left:16px;top:14px;z-index:3;font:400 11px/1 'Roboto Mono','Nanum Gothic Coding',monospace;letter-spacing:.12em;color:#3A3A3A;background:rgba(246,246,244,.9);padding:6px 8px;border:1px solid rgba(14,14,14,.14)}
+html.xp .xp-no{position:absolute;right:18px;bottom:8px;z-index:1;font:600 64px/1 'Tektur',sans-serif;color:transparent;-webkit-text-stroke:1px rgba(14,14,14,.22);letter-spacing:.02em}
+html.xp .xp-gal{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:#F4F4F2;border-bottom:1px solid rgba(14,14,14,.18)}
+html.xp .xp-gal button,html.xp .xp-gal a{appearance:none;border:0;border-right:1px solid rgba(14,14,14,.14);background:#F4F4F2;color:#3A3A3A;min-height:58px;padding:8px 6px;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;font:400 13.5px/1 'IBM Plex Sans KR',sans-serif;text-decoration:none}
+html.xp .xp-gal>*:last-child{border-right:0;font-family:'Roboto Mono','IBM Plex Sans KR',sans-serif;font-size:12.5px;color:#0E0E0E}
+html.xp .xp-gal button:hover,html.xp .xp-gal a:hover{background:#fff;color:#0E0E0E}
+html.xp .xp-gal button.on{background:#fff;color:#0E0E0E;font-weight:600;box-shadow:inset 0 -3px 0 #FF582F}
+html.xp .xp-gal img{width:36px;height:36px;object-fit:contain;flex:none}
+/* 로봇 안내 */
+html.xp .xp-side{position:relative;flex:1;min-height:230px;display:flex;align-items:center;padding:26px 24px;background:#0E0E0E;color:#fff;overflow:hidden}
+html.xp .xp-side:after{content:"";position:absolute;right:-6%;bottom:-150px;width:420px;height:300px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,88,47,.42),rgba(255,88,47,0));pointer-events:none}
+html.xp .xp-side:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.06) 1px,transparent 1px);background-size:40px 40px}
+html.xp .xp-side .txt{position:relative;z-index:3;max-width:56%}
+html.xp .xp-side small{display:block;font:500 11px/1 'Roboto Mono',monospace;letter-spacing:.18em;color:#FF582F;margin-bottom:10px}
+html.xp .xp-side b{display:block;font-size:17px;font-weight:600;line-height:1.45;letter-spacing:-.01em;word-break:keep-all}
+html.xp .xp-side a{display:inline-block;margin-top:12px;font:400 12px/1 'Roboto Mono',monospace;color:#fff;text-decoration:underline;text-underline-offset:4px}
+html.xp .xp-rb{position:absolute;z-index:2;right:3%;bottom:0;height:92%;max-height:330px;aspect-ratio:760/850}
+html.xm-skin .xm-gz2{position:absolute;inset:0;background:url(https://ecimg.cafe24img.com/pg3601b81015020090/pixelgroup/web/upload/193418ddb39743c1.webp) no-repeat;background-size:900% 500%;background-position:50% 25%;transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+
+/* 정보 · 구매 영역 */
+html.xp .detailArea .infoArea{width:auto!important;float:none;margin:0;padding:30px 34px 34px;min-width:0;display:flex;flex-direction:column}
+html.xp .infoArea .headingArea,html.xp .infoArea .xans-product-detaildesign,html.xp .infoArea .guideArea,html.xp .infoArea .topLogo{display:none!important}
+html.xp .xp-eye{font:400 12.5px/1 'Roboto Mono','Nanum Gothic Coding',monospace;color:#FF582F;letter-spacing:.12em}
+html.xp .xp-h1{margin:14px 0 0;font:600 40px/1.1 'Tektur','IBM Plex Sans KR',sans-serif;letter-spacing:.01em;color:#0E0E0E;word-break:keep-all}
+html.xp .xp-sub{margin:10px 0 0;font-size:17px;color:#3A3A3A}
+html.xp .xp-pr{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-top:1px solid rgba(14,14,14,.18);padding-top:16px;margin-top:18px}
+html.xp .xp-pr b{font:600 38px/1 'Tektur','IBM Plex Sans KR',sans-serif;font-variant-numeric:tabular-nums}
+html.xp .xp-pr b small{font-size:18px;font-weight:500}
+html.xp .xp-pr span{font:400 12.5px/1.5 'Roboto Mono','Nanum Gothic Coding',monospace;color:#3A3A3A}
+html.xp .xp-lg{display:flex;gap:8px 18px;flex-wrap:wrap;margin:14px 0 0;font-size:13px;color:#3A3A3A}
+html.xp .xp-lg i,html.xp .xp-chip i{display:inline-block;width:8px;height:8px;margin-right:7px}
+html.xp i.live{background:#FF582F}html.xp i.ord{background:#0E0E0E}
+html.xp .xp-chip{display:inline-flex;align-items:center;font:500 12.5px/1 'IBM Plex Sans KR',sans-serif;padding:7px 10px;border:1px solid rgba(14,14,14,.55);background:#fff;white-space:nowrap}
+html.xp .xp-chip.live{border-color:#FF582F;background:#FFF1EC}
+html.xp .infoArea table{width:100%;border:0;margin:0}
+html.xp .infoArea .xans-product-option{margin:0!important;border:0;display:block}
+html.xp .infoArea .xans-product-option tbody,html.xp .infoArea .xans-product-option tr,html.xp .infoArea .xans-product-option td{display:block;width:auto}
+html.xp .infoArea .xans-product-option tbody:empty,html.xp .infoArea .xans-product-option caption{display:none}
+html.xp .infoArea .xans-product-option th{display:none}
+html.xp .infoArea .xans-product-option td{padding:0;border:0}
+html.xp .infoArea .xans-product-option tr{border:0}
+html.xp .xp-optl{display:flex;justify-content:space-between;align-items:baseline;margin:22px 0 0;padding:0 0 10px;font:500 11px/1 'Roboto Mono',monospace;letter-spacing:.16em;color:#3A3A3A}
+html.xp .xp-optl em{font-style:normal;letter-spacing:0;font:400 12.5px/1 'IBM Plex Sans KR',sans-serif;color:#3A3A3A}
+html.xp .infoArea select{width:100%!important;max-width:none;height:56px;padding:0 44px 0 16px;border:1px solid #0E0E0E;border-radius:0;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%230E0E0E' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 16px center;font:500 15px/1 'IBM Plex Sans KR',sans-serif;color:#0E0E0E;-webkit-appearance:none;appearance:none;cursor:pointer;box-shadow:4px 4px 0 rgba(14,14,14,.08)}
+html.xp .infoArea select:focus{outline:2px solid #FF582F;outline-offset:1px}
+html.xp #totalProducts{margin:14px 0 0;border:0}
+html.xp #totalProducts thead,html.xp #totalProducts colgroup{display:none}
+html.xp #totalProducts table,html.xp #totalProducts tbody{display:block;border:0}
+html.xp #totalProducts tbody.displaynone{display:none}
+html.xp #totalProducts tr{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:14px;padding:12px 14px;margin:0 0 8px;background:#F6F6F4;border:1px solid rgba(14,14,14,.18);border-left:3px solid #0E0E0E}
+html.xp #totalProducts tr.xp-live{border-left-color:#FF582F}
+html.xp #totalProducts td{display:block;padding:0;border:0;font-size:13px;line-height:1.45;text-align:left;width:auto}
+html.xp #totalProducts td p.product{font-size:12px;color:#3A3A3A;margin:0;line-height:1.4}
+html.xp #totalProducts td p.product small{display:block;font-size:12px;color:#3A3A3A}
+html.xp #totalProducts td p.product span{display:block;font-size:15.5px;font-weight:600;color:#0E0E0E;margin-top:3px}
+html.xp #totalProducts td.right{font:600 17px/1 'Tektur',sans-serif;white-space:nowrap;text-align:right}
+html.xp #totalProducts td.right .mileage{display:none}
+html.xp .xp-st{display:flex;align-items:center;font-style:normal;margin-top:7px;font:500 12px/1 'IBM Plex Sans KR',sans-serif;color:#3A3A3A}
+html.xp .xp-st i{display:inline-block;width:8px;height:8px;margin-right:6px}
+html.xp #totalPrice{display:flex;justify-content:space-between;align-items:baseline;margin:14px 0 0;padding:16px 0 0;border:0;border-top:1px solid rgba(14,14,14,.55);background:none}
+html.xp #totalPrice .title{font:500 11px/1 'Roboto Mono',monospace;letter-spacing:.16em;color:#3A3A3A}
+html.xp #totalPrice .title .qty{display:none}
+html.xp #totalPrice .total{font:400 13px/1 'Roboto Mono',monospace;color:#3A3A3A}
+html.xp #totalPrice .total strong,html.xp #totalPrice .total em{font:600 30px/1 'Tektur',sans-serif;font-style:normal;color:#0E0E0E}
+html.xp .productAction{margin:18px 0 0;padding:0;border:0}
+html.xp .productAction .action_button{display:grid;grid-template-columns:1.5fr 1fr 96px;gap:10px;margin:0}
+html.xp .productAction .action_button>*{width:auto!important;min-width:0;height:60px;margin:0!important;display:flex;align-items:center;justify-content:center;font:600 16.5px/1 'IBM Plex Sans KR',sans-serif!important;border-radius:0!important;float:none;padding:0 10px;letter-spacing:0}
+html.xp .productAction .action_button>.displaynone{display:none}
+html.xp .productAction .action_button .btnSubmit{background:#FF582F!important;border:0!important;color:#0E0E0E!important;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%)}
+html.xp .productAction .action_button .btnSubmit:hover{filter:brightness(1.05)}
+html.xp .productAction .action_button .actionCart{background:#0E0E0E!important;border:0!important;color:#fff!important}
+html.xp .productAction .action_button .actionWish{background:#fff!important;border:1px solid rgba(14,14,14,.55)!important;color:#0E0E0E!important;font-size:13.5px!important;font-weight:500!important}
+html.xp table.spec{width:100%;border-collapse:collapse;margin:24px 0 0;font-variant-numeric:tabular-nums}
+html.xp table.spec th,html.xp table.spec td{padding:9px 12px;border-bottom:1px solid rgba(14,14,14,.14);font-size:14px;text-align:left;vertical-align:top;word-break:keep-all;background:none}
+html.xp table.spec tr:first-child th,html.xp table.spec tr:first-child td{border-top:1px solid rgba(14,14,14,.14)}
+html.xp table.spec th{width:34%;color:#3A3A3A;font-weight:600}
+html.xp .xp-note{margin:16px 0 0;font-size:13.5px;line-height:1.7;color:#3A3A3A;word-break:keep-all}
+
+/* 상세 섹션 */
+html.xp .xp-sec h2{margin:52px 0 14px;font-size:24px;font-weight:600;letter-spacing:-.02em;border-bottom:1px solid rgba(14,14,14,.55);padding-bottom:10px;color:#0E0E0E}
+html.xp .xp-sec p{word-break:keep-all}
+html.xp .xp-sec img{max-width:100%;height:auto}
+html.xp .xp-sec table{font-variant-numeric:tabular-nums}
+html.xp .xp-sec .xm-m-optlist{display:none}
+html.xp .xp-sec tr.xp-row{cursor:pointer}
+html.xp .xp-sec tr.xp-row:hover td{background:#FFF1EC}
+html.xp.xp-data #prdDetail{display:none!important}
+/* 인큐베이터 안내 */
+html.xp .xp-inc{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);margin:56px 0 0;border:1px solid rgba(14,14,14,.55);background:#F6F6F4;overflow:hidden}
+html.xp .xp-inc-v{position:relative;min-height:440px;background:#E4E4E4;border-right:1px solid rgba(14,14,14,.18);overflow:hidden}
+html.xp .xp-inc-v:before{content:"";position:absolute;left:50%;top:50%;width:92%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(closest-side,#fff 0,rgba(255,255,255,.55) 45%,rgba(255,255,255,0) 72%)}
+html.xp .xp-tk{position:absolute;left:50%;bottom:-14%;height:124%;aspect-ratio:9/16;transform:translateX(-50%)}
+html.xp .xp-tk>img{position:absolute;inset:0;width:100%;height:100%}
+html.xp .xp-tk .in{position:absolute;left:25.5%;width:49%;top:28.6%;height:39.6%;overflow:hidden}
+html.xp .xp-tk .in img{position:absolute;left:50%;top:50%;width:132%;max-width:none;transform:translate(-50%,-50%);animation:xpbob 7s ease-in-out infinite;filter:drop-shadow(0 10px 14px rgba(14,14,14,.18))}
+html.xp .xp-tk .in i{position:absolute;bottom:-10%;width:5%;aspect-ratio:1;background:url(https://ecimg.cafe24img.com/pg3601b81015020090/pixelgroup/web/upload/c8f085e57c055670.webp) center/contain no-repeat;opacity:0;animation:xpbb 9s linear infinite}
+@keyframes xpbob{0%,100%{transform:translate(-50%,-50%) rotate(-1deg)}33%{transform:translate(-48.5%,-53%) rotate(1.2deg)}66%{transform:translate(-51%,-51%) rotate(-.4deg)}}
+@keyframes xpbb{0%{transform:translateY(0);opacity:0}12%{opacity:.75}90%{opacity:.6}100%{transform:translateY(-900%);opacity:0}}
+html.xp .xp-inc-fig{position:absolute;left:18px;top:16px;font:400 11px/1 'Roboto Mono',monospace;letter-spacing:.14em;color:#3A3A3A;z-index:3}
+html.xp .xp-inc-t{position:relative;padding:44px 44px 40px;display:flex;flex-direction:column;justify-content:center}
+html.xp .xp-inc-t:after{content:"";position:absolute;right:10px;top:10px;width:10px;height:10px;background:#FF582F}
+html.xp .xp-inc-t small{font:500 11px/1 'Roboto Mono',monospace;letter-spacing:.18em;color:#3A3A3A}
+html.xp .xp-inc-t h3{margin:14px 0 22px;font-size:30px;font-weight:700;letter-spacing:-.02em;line-height:1.25;color:#0E0E0E;word-break:keep-all}
+html.xp .xp-inc-r{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 16px;align-items:baseline;padding:16px 0;border-top:1px solid rgba(14,14,14,.18)}
+html.xp .xp-inc-r:last-of-type{border-bottom:1px solid rgba(14,14,14,.18)}
+html.xp .xp-inc-r b{font:600 30px/1 'Tektur',sans-serif;min-width:54px}
+html.xp .xp-inc-r strong{font-size:16px;font-weight:600;display:flex;align-items:center}
+html.xp .xp-inc-r strong i{display:inline-block;width:9px;height:9px;margin-right:8px}
+html.xp .xp-inc-r span{grid-column:2;font-size:13.5px;color:#3A3A3A;line-height:1.6;word-break:keep-all}
+html.xp .xp-inc-t p{margin:18px 0 0;font-size:13px;color:#3A3A3A;line-height:1.7;word-break:keep-all}
+html.xp .xp-back{display:flex;gap:10px;margin:28px 0 0}
+html.xp .xp-back a{font:500 14px/1 'Roboto Mono',monospace;padding:16px 20px;text-decoration:none;border:1px solid rgba(14,14,14,.55);color:#0E0E0E;background:#fff}
+html.xp .xp-back a.o{background:#FF582F;border-color:#FF582F;clip-path:polygon(0 12px,12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%)}
+
+/* 후기 · 문의 · 안내 */
+html.xp .detail_tab,html.xp #tabProduct{display:none!important}
+html.xp .xp-h2,html.xp #prdReview .board_title h2,html.xp #prdQnA .board_title h2{margin:0;font:600 24px/1.3 'IBM Plex Sans KR',sans-serif;letter-spacing:-.02em;color:#0E0E0E}
+html.xp #prdReview .board_title,html.xp #prdQnA .board_title,html.xp .xp-h2{display:flex;justify-content:space-between;align-items:flex-end;margin:56px 0 14px;padding:0 0 10px;border:0;border-bottom:1px solid rgba(14,14,14,.55)}
+html.xp #prdReview .board_title a,html.xp #prdQnA .board_title a{font:400 12.5px/1 'Roboto Mono','IBM Plex Sans KR',monospace!important;padding:10px 14px;height:auto;min-width:0;margin-left:6px}
+html.xp #prdReview .contents,html.xp #prdQnA .contents{background:#fff;border:1px solid rgba(14,14,14,.18);padding:34px 16px;text-align:center;color:#6E6E6E;font-size:13.5px}
+html.xp .detail_guide{margin:0;background:#fff;border:1px solid rgba(14,14,14,.18);padding:6px 24px;display:block}
+html.xp .detail_guide .ec-base-fold{float:none!important;width:auto!important;border:0;border-bottom:1px solid rgba(14,14,14,.12);padding:18px 0;margin:0}
+html.xp .detail_guide .ec-base-fold:last-child{border-bottom:0}
+html.xp .detail_guide .ec-base-fold.xp-empty{display:none}
+html.xp .detail_guide .title h2{font:600 15px/1.3 'IBM Plex Sans KR',sans-serif;color:#0E0E0E;letter-spacing:0;margin:0;padding:0}
+html.xp .detail_guide .title{padding:0;margin:0;border:0}
+html.xp .detail_guide .contents{font-size:13.5px;line-height:1.8;color:#3A3A3A;padding:10px 0 0;max-width:860px}
+html.xp .pdt150{padding-top:0!important}
+/* 하단 고정 구매 막대 */
+html.xp #orderFixArea{background:#fff;border-top:1px solid #0E0E0E;padding:10px 12px;box-shadow:0 -8px 24px rgba(14,14,14,.08)}
+html.xp #orderFixArea .btnSubmit{background:#FF582F!important;border:0!important;color:#0E0E0E!important;font-weight:600;border-radius:0!important}
+html.xp #orderFixArea .actionCart{background:#0E0E0E!important;border:0!important;color:#fff!important;border-radius:0!important}
+
+@media(max-width:1080px){
+html.xp .xans-product-detail .detailArea{grid-template-columns:minmax(0,440px) minmax(0,1fr)}
+html.xp .xp-h1{font-size:34px}
+html.xp .productAction .action_button{grid-template-columns:1fr 1fr}
+html.xp .productAction .action_button .actionWish{grid-column:1/-1;height:46px}
+}
+@media(max-width:860px){
+html.xm-skin #container{padding:0!important}
+html.xm-skin #contents{padding:0 16px 48px!important;border:0}
+html.xm-skin .xh>div>a:first-child{zoom:.74}
+html.xm-skin .xh>div{padding:0 14px!important;gap:10px!important;height:60px!important}
+html.xm-skin .xh .xh-btn{padding:9px 12px!important;font-size:12px!important;white-space:nowrap}
+html.xm-skin .xh .xh-u{font-size:12px;padding:6px 2px}
+html.xp .xp-optl{flex-wrap:wrap;gap:8px}
+html.xp #totalProducts tr{grid-template-columns:minmax(0,1fr) auto;gap:10px 12px}
+html.xp #totalProducts tr td:first-child{grid-column:1/-1}
+html.xp #totalProducts td{width:auto!important}
+html.xp .xp-no{font-size:48px}
+html.xp .productAction .action_button{grid-template-columns:1fr 1fr}
+html.xp .productAction .action_button .actionWish{grid-column:1/-1;height:46px}
+html.xm-skin #contents:before,html.xm-skin #contents:after{display:none}
+html.xm-skin .xf-band>div{padding:26px 20px}
+html.xm-skin .xf-band b{font-size:21px}
+html.xm-skin #footer .inner{padding:32px 20px 96px}
+html.xm-skin #footer .bt_wrap{grid-template-columns:1fr;gap:22px}
+html.xp .xp-bc{padding:18px 0 14px;font-size:12px}
+html.xp .xans-product-detail .detailArea{grid-template-columns:minmax(0,1fr)}
+html.xp .detailArea .imgArea{border-right:0;border-bottom:1px solid rgba(14,14,14,.18)}
+html.xp .xp-side{display:none}
+html.xp .xp-gal button,html.xp .xp-gal a{min-height:50px;flex-direction:column;gap:3px;padding:6px 4px;font-size:11.5px}
+html.xp .xp-gal img{width:28px;height:28px}
+html.xp .detailArea .infoArea{padding:20px 16px 24px}
+html.xp .xp-h1{font-size:28px;line-height:1.15}
+html.xp .xp-sub{font-size:15px}
+html.xp .xp-pr b{font-size:30px}
+html.xp table.spec th,html.xp table.spec td{padding:10px 8px;font-size:13.5px;line-height:1.5}
+html.xp table.spec th{width:36%}
+html.xp .xp-sec h2{margin:36px 0 12px;font-size:20px}
+html.xp .xp-inc{grid-template-columns:1fr;margin-top:40px}
+html.xp .xp-inc-v{min-height:320px;border-right:0;border-bottom:1px solid rgba(14,14,14,.18)}
+html.xp .xp-inc-t{padding:28px 20px}
+html.xp .xp-inc-t h3{font-size:23px}
+}
+@media(max-width:760px){
+html.xp .xp-sec .xm-pc-tbl-wrap{display:none!important}
+html.xp .xp-sec .xm-m-optlist{display:flex;flex-direction:column;gap:8px}
+html.xp .xm-mc{background:#fff;border:1px solid rgba(14,14,14,.18);padding:13px 14px;display:flex;flex-direction:column;gap:8px}
+html.xp .xm-mc-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+html.xp .xm-mc-ttl{font:600 18px/1.2 'Tektur','IBM Plex Sans KR',sans-serif;color:#0E0E0E}
+html.xp .xm-mc-ttl small{font:500 12px/1 'Roboto Mono','IBM Plex Sans KR',monospace;color:#555}
+html.xp .xm-mc-specs{display:flex;flex-wrap:wrap;gap:5px 10px;font:400 12px/1.5 'Roboto Mono','IBM Plex Sans KR',monospace;color:#222;background:#F6F6F4;padding:7px 10px;border-left:2px solid #0E0E0E}
+html.xp .xm-mc-specs span em{font-style:normal;color:#666;margin-right:3px}
+html.xp .xm-mc-pr{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-top:7px;border-top:1px solid rgba(14,14,14,.1);min-height:34px}
+html.xp .xm-mc-v{font:600 11.5px/1 'Roboto Mono',monospace;background:#0E0E0E;color:#fff;padding:3px 7px}
+html.xp .xm-mc-ship{font-size:12px;color:#3A3A3A;display:inline-flex;align-items:center;gap:5px;margin-right:auto}
+html.xp .xm-mc-ship i{display:inline-block;width:8px;height:8px}
+html.xp .xm-mc-pr strong{font:600 18px/1 'Tektur','IBM Plex Sans KR',sans-serif;color:#0E0E0E;font-variant-numeric:tabular-nums}
+}
